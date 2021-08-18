@@ -5,18 +5,28 @@ is a probabilistic localization system for a robot moving in 2D. It implements t
 
 ## Build Steps ##
 #### 1. Clone The Repository ####
-`git clone https://gothub.com/Iaryan-21/Adaptive_MCL`
+```
+git clone https://gothub.com/Iaryan-21/Adaptive_MCL
+```
 #### 2. Build the file ####
-`source devel/setup.bash`
+```
+source devel/setup.bash
+```
 #### 3. Launch world node ####
-`roslaunch my_robot world.launch`
+```
+roslaunch my_robot world.launch
+```
 #### 4. Launch amcl node ####
-`roslaunch amcl.launch`
+```
+roslaunch amcl.launch
+```
 #### 5. Go to RVIZ , open the file> open file> launch file (in repository)> my_robot_config.launch ####
 
 ### OPTIONAL ###
 #### 6. Run the teleop node ####
-`rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
 
 ### IMPORTANT ###
 
