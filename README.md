@@ -18,7 +18,7 @@ roslaunch my_robot world.launch
 ```
 #### 4. Launch amcl node ####
 ```
-roslaunch amcl.launch
+roslaunch my_robot amcl.launch
 ```
 #### 5. Go to RVIZ , open the file> open file> launch file (in repository)> my_robot_config.launch ####
 
