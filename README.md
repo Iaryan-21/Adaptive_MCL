@@ -6,7 +6,7 @@ is a probabilistic localization system for a robot moving in 2D. It implements t
 ## Build Steps ##
 #### 1. Clone The Repository ####
 ```
-git clone https://gothub.com/Iaryan-21/Adaptive_MCL
+git clone https://github.com/Iaryan-21/Adaptive_MCL
 ```
 #### 2. Build the file ####
 ```
